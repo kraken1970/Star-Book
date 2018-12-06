@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Spinner from "../spinner";
 
 import SwapiService from "../../services/swapi-service";
 
@@ -33,7 +34,8 @@ export default class RandomPlanet extends Component {
 
     return (
       <div className="random-planet jumbotron rounded">
-        <img
+        <Spinner />
+        {/* <img
           className="planet-image"
           src={`https://starwars-visualguide.com/assets/img/planets/${id}.jpg`}
           alt="planet"
@@ -54,7 +56,7 @@ export default class RandomPlanet extends Component {
               <span>{diameter}</span>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
     );
   }
