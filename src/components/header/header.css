@@ -10,18 +10,27 @@
   border-radius: 3px;
 }
 
+.header ul {
+  margin-bottom: 0;
+}
+
 .header ul li:hover {
   background-color: #444;
 }
 
-.header a:hover {
+.header p:hover {
   text-decoration: none;
 }
 
-.header h3 a {
+.header p {
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+.header h3 p {
   color: white;
 }
 
-.header h3 a:hover {
+.header p:hover {
   color: #00bc8c;
 }

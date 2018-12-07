@@ -6,17 +6,17 @@ const Header = () => {
   return (
     <div className="header d-flex">
       <h3>
-        <a href="#">Star DB</a>
+        <p>Star DB</p>
       </h3>
       <ul className="d-flex">
         <li>
-          <a href="#">People</a>
+          <p>People</p>
         </li>
         <li>
-          <a href="#">Planets</a>
+          <p>Planets</p>
         </li>
         <li>
-          <a href="#">Starships</a>
+          <p>Starships</p>
         </li>
       </ul>
     </div>
