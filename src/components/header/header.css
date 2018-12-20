@@ -1,6 +1,7 @@
 .header {
   margin-top: 0.5rem;
   padding-left: 10px;
+  margin-bottom: 0.5rem;
 }
 
 .header ul li {
@@ -8,6 +9,8 @@
   margin: 0;
   padding: 0.5rem 1rem;
   border-radius: 3px;
+  display: flex;
+  align-items: center;
 }
 
 .header ul {
@@ -31,6 +34,6 @@
   color: white;
 }
 
-.header p:hover {
+.header p {
   color: #00bc8c;
 }
