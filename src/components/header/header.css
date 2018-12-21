@@ -37,3 +37,8 @@
 .header p {
   color: #00bc8c;
 }
+
+.header button {
+  height: 2.2rem;
+  margin: auto 0;
+}
