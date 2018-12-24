@@ -19,7 +19,6 @@ export default class App extends Component {
     this.setState(({ swapiService }) => {
       const Service =
         swapiService instanceof SwapiService ? DummySwapiService : SwapiService;
-      console.log("switched to", Service.name);
       return {
         swapiService: new Service()
       };
